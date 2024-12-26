@@ -1,10 +1,8 @@
-// import { ... } from "react-leaflet";
+import { MapContainer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 export default function App() {
   return (
-    <div>
-      Решение тут
-    </div>
+    <MapContainer style={{ height: "100vh", width: "100vw" }}></MapContainer>
   );
 }
